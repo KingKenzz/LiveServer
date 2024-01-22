@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (downloadButton) {
         // Add click event listener only if the element is found
         downloadButton.addEventListener('click', function() {
-            var pdfFile = './assets/pdf/PemiPartsSupplierList.pdf';
+            var pdfFile = './assets/pdf.SupplierList.pdf';
 
             var link = document.createElement('a');
             link.href = pdfFile;
